@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/color_white"
+    android:padding="@dimen/padding_normal"
+    android:gravity="center_horizontal" >
+    
+    <TextView
+        android:layout_width="match_parent"
+    	android:layout_height="0dp"
+    	android:layout_weight="4"
+    	android:text="@string/string_login_follow_up___"
+    	android:textSize="@dimen/font_size_2" />
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+   		android:layout_height="wrap_content"
+   		android:layout_margin="@dimen/padding_tiny"
+   		android:orientation="horizontal" >
+           
+		<EditText
+	        android:id="@+id/edittextShortCode"
+	        android:paddingLeft="@dimen/padding_tiny"
+	        android:paddingRight="@dimen/padding_tiny"
+	        android:layout_width="0dp"
+   			android:layout_height="@dimen/login_activity_edittext_height"
+   			android:layout_weight="3"
+	        android:background="@drawable/bg_white_bordered"
+	        android:singleLine="true"
+	        android:inputType="number"
+	        android:textColor="@color/color_mdark_gray" />
+              
+		<LinearLayout
+			android:layout_width="0dp"
+   			android:layout_height="@dimen/login_activity_edittext_height"
+   			android:layout_weight="7"
+   			android:gravity="center_vertical|left" >
+   			
+			<Button
+				android:id="@+id/buttonnterShortCodeOK"
+				android:layout_margin="@dimen/padding_tiny"
+				android:layout_width="wrap_content"
+				android:layout_height="@dimen/login_activity_edittext_height"
+				android:background="@drawable/bg_green_round"
+				android:text=" OK " />
+                  
+		</LinearLayout>
+              
+	</LinearLayout>
+
+</LinearLayout><!-- From: file:/Volumes/WORK/AndroidStudio/Aikos/aikos/src/main/res/layout/fragment_login_enter_short_code.xml -->

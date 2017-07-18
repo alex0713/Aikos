@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item android:id="@+id/item_intraday_delete"
+          android:showAsAction="always" 
+          android:icon="@drawable/ic_trash" />
+    
+    <item android:id="@+id/item_intraday_add"
+          android:showAsAction="always" 
+          android:icon="@drawable/ic_plus" />
+
+</menu>
+<!-- From: file:/Volumes/WORK/AndroidStudio/Aikos/aikos/src/main/res/menu/action_menu_intraday.xml -->

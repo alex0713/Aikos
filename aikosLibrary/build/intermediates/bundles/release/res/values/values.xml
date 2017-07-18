@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Volumes/WORK/AndroidStudio/Aikos/aikosLibrary/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string-array name="consume_case">
+        <item>usages</item>
+        <item>compteurs</item>
+    </string-array>
+    <string-array name="days">
+        <item>Lundi</item>
+        <item>Mardi</item>
+        <item>Mercredi</item>
+        <item>Jeudi</item>
+        <item>Vendredi</item>
+        <item>Samedi</item>
+        <item>Dimanche</item>
+    </string-array>
+    <string-array name="periods">
+        <item>instantaneous</item>
+        <item>heure</item>
+        <item>jour</item>
+        <item>mois</item>
+    </string-array>
+    <!-- From: file:/Volumes/WORK/AndroidStudio/Aikos/aikosLibrary/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="_Atlantis">#A0DC48</color>
+    <color name="_Chicago">#5A5D5A</color>
+    <color name="_Cold_Purple">#A084C3</color>
+    <color name="_Deep_Carmin_Pink">#EC3B3F</color>
+    <color name="_Festival">#EED54A</color>
+    <color name="_Gainsboro">#DEDBDE</color>
+    <color name="_Gray">#949294</color>
+    <color name="_Inch_Worm">#B7E56F</color>
+    <color name="_Indigo">#441296</color>
+    <color name="_Lima">#7BBF26</color>
+    <color name="_Pale_Cerulean">#9DC7E5</color>
+    <color name="_Purple_Heart">#814BCD</color>
+    <color name="_Rich_Electric_Blue">#1587CB</color>
+    <color name="_Summer_Sky">#41B3EC</color>
+    <color name="_Tulip_Tree">#EDA745</color>
+    <color name="color_dark_gray">#858585</color>
+    <color name="color_gray">#949294</color>
+    <color name="color_inactive_gray">#DEDBDE</color>
+    <color name="color_light_blue">#39B2EF</color>
+    <color name="color_light_gray">#B4B4B4</color>
+    <color name="color_light_green">#79C107</color>
+    <color name="color_light_pink">#A084C3</color>
+    <color name="color_mdark_gray">#5A5D5A</color>
+    <color name="color_pink">#8245D0</color>
+    <color name="color_purple">#784DAD</color>
+    <color name="color_white">#FFFFFF</color>
+    <!-- From: file:/Volumes/WORK/AndroidStudio/Aikos/aikosLibrary/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="font_size_1">47dp</dimen>
+    <dimen name="font_size_2">20dp</dimen>
+    <dimen name="font_size_3">16dp</dimen>
+    <dimen name="font_size_4">15dp</dimen>
+    <dimen name="font_size_5">13dp</dimen>
+    <dimen name="font_size_6">12dp</dimen>
+    <dimen name="font_size_7">11dp</dimen>
+    <dimen name="font_size_pagetitle">12dp</dimen>
+    <dimen name="font_size_t1">30dp</dimen>
+    <dimen name="intraday_timeline_width">1200dp</dimen>
+    <dimen name="large_icon_size">34dp</dimen>
+    <dimen name="left_panel_width">240dp</dimen>
+    <dimen name="login_activity_edittext_height">35dp</dimen>
+    <dimen name="login_activity_edittext_width">300dp</dimen>
+    <dimen name="normal_icon_size">22dp</dimen>
+    <dimen name="padding_large">40dp</dimen>
+    <dimen name="padding_normal">20dp</dimen>
+    <dimen name="padding_small">10dp</dimen>
+    <dimen name="padding_tiny">5dp</dimen>
+    <dimen name="padding_vlarge">100dp</dimen>
+    <dimen name="slider_thumb_width">25dp</dimen>
+    <dimen name="small_icon_size">18dp</dimen>
+    <!-- From: file:/Volumes/WORK/AndroidStudio/Aikos/aikosLibrary/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="Start_and_end_of_the_period">Début et fin de la période</string>
+    <string name="action_menu_configuration">Configuration</string>
+    <string name="action_menu_disconnection">Déconnexion</string>
+    <string name="action_menu_holidays">Vacances</string>
+    <string name="action_menu_weekend">Week-end</string>
+    <string name="app_name">Aikos</string>
+    <string name="end_time">Heure de fin</string>
+    <string name="hint_login">ex : mon_nom@mon_adresse.com</string>
+    <string name="start_time">Heure de début</string>
+    <string name="string_activate">Activer</string>
+    <string name="string_choice_program">Choix du Programme</string>
+    <string name="string_curr_active_prog___">Programme actif </string>
+    <string name="string_logging_in_">Bonjour Pascal,\n\nVous avez consommé 120 € en électricité, eau et eau chaude depuis le début du mois, 20 € de moins que le mois précédent à la même période et 12 € de plus que les autres logements du Mot de passe même type que le vôtre. Veuillez patienter, l’application télécharge la suite des données.</string>
+    <string name="string_login_follow_up___">Bonjour Pascal,\n\nAfin de garantir la confidentialité des données, vous devez rentrez le code d’identification court de votre boîtier aïkos.\nCe code est directement lisible et modifiable depuis votre écran du boîtier aïkos à partir du menu configuration.\n\nEntrez votre code d’identification :</string>
+    <string name="string_modify">Modifier</string>
+    <string name="string_modify_program">Changer de Programme</string>
+    <string name="string_optimized_consume___">Optimisation de le consomation</string>
+    <string name="string_when_was_the___">QUEL EST LE DERNIER ACCES ?</string>
+    <string name="string_who_has_access___">QUI A ACCES AU BOÎTIER ?</string>
+    <string name="targeted_temperature">Température ciblée</string>
+    <string name="text_CAP_EUROS">EUROS</string>
+    <string name="text_CAP_PERIOD">PERIODE</string>
+    <string name="text_CAP_circuits">CIRCUITS</string>
+    <string name="text_CAP_measure">MESURE</string>
+    <string name="text_CAP_programme">PROGRAMME</string>
+    <string name="text_CAP_real">REEL</string>
+    <string name="text_CAP_zone">ZONE</string>
+    <string name="text_Cancel">Annuler</string>
+    <string name="text_End">Fin</string>
+    <string name="text_NO">NON</string>
+    <string name="text_Save">Enregistrer</string>
+    <string name="text_Start">Début</string>
+    <string name="text_Validate">Valider</string>
+    <string name="text_YES">OUI</string>
+    <string name="text_automatic">Automatique</string>
+    <string name="text_button_forgot_password">Mot de passe oublié</string>
+    <string name="text_button_join">S’inscrire sur aïkos</string>
+    <string name="text_button_login">Se connecter</string>
+    <string name="text_circute">circuit</string>
+    <string name="text_consumption">Consommation</string>
+    <string name="text_contract">Contrat</string>
+    <string name="text_firstname">Prénom</string>
+    <string name="text_heating">chauffage</string>
+    <string name="text_hotwater">chauffe eau</string>
+    <string name="text_id">Id</string>
+    <string name="text_login">Login</string>
+    <string name="text_long_identifier">Identifiant long</string>
+    <string name="text_name">nom</string>
+    <string name="text_now">maintenant</string>
+    <string name="text_password">Mot de passe</string>
+    <string name="text_programme">programme</string>
+    <string name="text_provider">Fournisseur</string>
+    <string name="text_short_identifier">Identifiant court</string>
+    <string name="text_subscription">Abonnement</string>
+    <string name="text_zone">zone</string>
+    <string name="title_configuration">Configuration</string>
+    <!-- From: file:/Volumes/WORK/AndroidStudio/Aikos/aikosLibrary/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+        
+        <!-- 
+        <item name="android:textViewStyle">@style/RobotoTextViewStyle</item>
+    	<item name="android:buttonStyle">@style/RobotoButtonStyle</item>
+         -->
+         
+    </style>
+    <style name="MyActionBar" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/_Indigo</item>
+    </style>
+</resources>

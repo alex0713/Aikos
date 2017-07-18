@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@color/color_dark_gray" >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color_white"
+        android:layout_margin="1dp"
+        android:orientation="vertical" >
+        
+        <com.github.mikephil.charting.charts.BarChart
+	        android:id="@+id/chartConsume"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent" />
+        
+    </LinearLayout>
+    
+    
+
+</LinearLayout>
+<!-- From: file:/Volumes/WORK/AndroidStudio/Aikos/aikos/src/main/res/layout/fragment_main_consume.xml -->

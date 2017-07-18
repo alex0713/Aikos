@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/color_dark_gray"
+    android:padding="1dp" >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical"
+	    android:background="@color/color_white" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="45">
+
+            <com.github.mikephil.charting.charts.LineChart
+                android:id="@+id/chartProgram"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/textviewIsActive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_purple_round"
+                android:textColor="#ffffff"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/padding_normal"
+                android:paddingTop="@dimen/padding_tiny"
+                android:paddingBottom="@dimen/padding_tiny"
+                android:paddingLeft="@dimen/padding_normal"
+                android:paddingRight="@dimen/padding_normal"
+                android:textSize="@dimen/font_size_4"
+                android:text="ACTIF"/>
+
+        </RelativeLayout>
+
+
+	
+	    <LinearLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="0dp"
+	        android:layout_weight="5"
+	        android:orientation="horizontal"
+	        android:background="@color/color_light_gray" >
+	        
+	        <TextView
+	            android:id="@+id/textviewProgramDescr"
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:textColor="@color/color_dark_gray"
+	            android:singleLine="true"
+	            android:gravity="center"
+	            android:text="provision de ... 50,00"
+	            android:textSize="@dimen/font_size_6" />
+	        
+	    </LinearLayout>
+	
+	    <LinearLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="0dp"
+	        android:layout_weight="10"
+	        android:orientation="horizontal"
+	        android:background="@color/color_white" >
+	        
+	        
+	        <LinearLayout
+	            android:layout_width="0dp"
+	            android:layout_height="match_parent"
+	            android:layout_weight="5"
+	            android:gravity="left|center_vertical"
+	            android:layout_marginLeft="@dimen/padding_normal"
+	            android:orientation="horizontal" >
+	            
+	            <ImageView
+	                android:id="@+id/imageviewProgramOptiIcon"
+	                android:layout_width="@dimen/normal_icon_size"
+	                android:layout_height="@dimen/normal_icon_size"
+	                android:src="@drawable/icon_leave" />
+	            
+	            <TextView
+	                android:id="@+id/textviewProgramOptiString"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:padding="@dimen/padding_tiny"
+	                android:textColor="@color/color_light_green"
+	                android:singleLine="true"
+	                android:gravity="left|center_vertical"
+	                android:text="@string/string_optimized_consume___"
+	                android:textSize="@dimen/font_size_6" />
+	            
+	            <CheckBox
+				    android:id="@+id/checkboxProgrammeOpti"
+				    android:layout_width="wrap_content"
+		  			android:layout_height="match_parent"
+		  			android:paddingLeft="@dimen/padding_normal" />
+	            
+	        </LinearLayout>
+	        
+	
+	        <LinearLayout
+	            android:layout_width="0dp"
+	            android:layout_height="match_parent"
+	            android:layout_weight="1" >
+	            
+	            <TextView
+	                android:id="@+id/textviewProgramModify"
+	                android:layout_width="match_parent"
+	                android:layout_height="match_parent"
+	                android:padding="@dimen/padding_tiny"
+	                android:textColor="@color/color_purple"
+	                android:singleLine="true"
+	                android:gravity="center"
+	                android:text="@string/string_modify"
+	                android:textSize="@dimen/font_size_3" />
+	            
+	        </LinearLayout>
+	        
+	        <LinearLayout
+	            android:layout_width="1dp"
+	            android:layout_height="match_parent"
+	            android:background="@color/color_inactive_gray"
+	            android:layout_marginTop="@dimen/padding_tiny"
+	            android:layout_marginBottom="@dimen/padding_tiny" >
+	        </LinearLayout>
+	        
+	        <LinearLayout
+	            android:layout_width="0dp"
+	            android:layout_height="match_parent"
+	            android:layout_weight="1" >
+	            
+	            <TextView
+	                android:id="@+id/textviewProgramActivate"
+	                android:layout_width="match_parent"
+	                android:layout_height="match_parent"
+	                android:padding="@dimen/padding_tiny"
+	                android:textColor="@color/color_purple"
+	                android:singleLine="true"
+	                android:gravity="center"
+	                android:text="@string/string_activate"
+	                android:textSize="@dimen/font_size_3" />
+	            
+	        </LinearLayout>
+	        
+	    </LinearLayout>
+    
+    </LinearLayout>
+
+    
+    
+</LinearLayout>
+<!-- From: file:/Volumes/WORK/AndroidStudio/Aikos/aikos/src/main/res/layout/fragment_main_programme.xml -->

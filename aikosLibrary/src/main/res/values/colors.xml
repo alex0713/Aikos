@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="_Cold_Purple">#A084C3</color>
+    <color name="_Purple_Heart">#814BCD</color>
+    <color name="_Indigo">#441296</color>
+
+    <color name="_Gainsboro">#DEDBDE</color>
+    <color name="_Gray">#949294</color>
+    <color name="_Chicago">#5A5D5A</color>
+
+    <color name="_Pale_Cerulean">#9DC7E5</color>
+    <color name="_Summer_Sky">#41B3EC</color>
+    <color name="_Rich_Electric_Blue">#1587CB</color>
+
+    <color name="_Inch_Worm">#B7E56F</color>
+    <color name="_Atlantis">#A0DC48</color>
+    <color name="_Lima">#7BBF26</color>
+
+    <color name="_Festival">#EED54A</color>
+    <color name="_Tulip_Tree">#EDA745</color>
+    <color name="_Deep_Carmin_Pink">#EC3B3F</color>
+
+
+
+    <color name="color_white">#FFFFFF</color>
+
+    <color name="color_pink">#8245D0</color>
+    <color name="color_gray">#949294</color>
+    <color name="color_dark_gray">#858585</color>
+    <color name="color_mdark_gray">#5A5D5A</color>
+    <color name="color_light_green">#79C107</color>
+    <color name="color_light_gray">#B4B4B4</color>
+    <color name="color_inactive_gray">#DEDBDE</color>
+    <color name="color_light_blue">#39B2EF</color>
+    <color name="color_light_pink">#A084C3</color>
+    <color name="color_purple">#784DAD</color>
+
+</resources>

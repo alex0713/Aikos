@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item android:id="@+id/switch_menuItem"
+          android:showAsAction="always" 
+          android:actionViewClass="android.widget.Switch" />
+
+    <item
+        android:id="@+id/action_normal_weekend"
+        android:orderInCategory="1000"
+        android:showAsAction="never"
+        android:title="@string/action_menu_weekend"/>
+    
+    <item
+        android:id="@+id/action_normal_holidays"
+        android:orderInCategory="1001"
+        android:showAsAction="never"
+        android:title="@string/action_menu_holidays"/>
+    
+    <item
+        android:id="@+id/action_normal_configuration"
+        android:orderInCategory="1002"
+        android:showAsAction="never"
+        android:title="@string/action_menu_configuration"/>
+    
+    <item
+        android:id="@+id/action_normal_disconnection"
+        android:orderInCategory="1002"
+        android:showAsAction="never"
+        android:title="@string/action_menu_disconnection"/>
+
+
+</menu>

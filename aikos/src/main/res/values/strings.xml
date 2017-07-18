@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Aikos</string>
+    
+    <string name="action_menu_weekend">Week-end</string>
+    <string name="action_menu_holidays">Vacances</string>
+    <string name="action_menu_configuration">Configuration</string>
+    <string name="action_menu_disconnection">Déconnexion</string>
+    
+    <string name="title_configuration">Configuration</string>
+    
+    
+    <!-- Login Page -->
+	<string name="text_id">Id</string>
+	<string name="text_password">Mot de passe</string>
+	<string name="text_button_login">Se connecter</string>
+	<string name="text_button_join">S’inscrire sur aïkos</string>
+	<string name="text_button_forgot_password">Mot de passe oublié</string>
+
+	<string name="text_firstname">Prénom</string>
+	<string name="text_name">nom</string>
+	<string name="text_login">Login</string>
+	<string name="text_long_identifier">Identifiant long</string>
+	<string name="text_short_identifier">Identifiant court</string>
+	
+	<string name="hint_login">ex : mon_nom@mon_adresse.com</string>
+	
+		
+	<string name="string_logging_in_">Bonjour Pascal,\n\nVous avez consommé 120 € en électricité, eau et eau chaude depuis le début du mois, 20 € de moins que le mois précédent à la même période et 12 € de plus que les autres logements du Mot de passe même type que le vôtre. Veuillez patienter, l’application télécharge la suite des données.</string>
+	<string name="string_login_follow_up___">Bonjour Pascal,\n\nAfin de garantir la confidentialité des données, vous devez rentrez le code d’identification court de votre boîtier aïkos.\nCe code est directement lisible et modifiable depuis votre écran du boîtier aïkos à partir du menu configuration.\n\nEntrez votre code d’identification :</string>
+	
+	<!-- Config -->
+	<string name="text_CAP_zone">ZONE</string>
+	<string name="text_CAP_measure">MESURE</string>
+	<string name="text_CAP_real">REEL</string>
+	
+	<string name="text_zone">zone</string>
+	
+	<!-- Config -->
+	<string name="text_CAP_circuits">CIRCUITS</string>
+	<string name="text_CAP_programme">PROGRAMME</string>
+	<string name="text_CAP_PERIOD">PERIODE</string>
+	<string name="text_CAP_EUROS">EUROS</string>
+	
+	<string name="text_circute">circuit</string>
+	<string name="text_programme">programme</string>
+	
+	<string name="string_who_has_access___">QUI A ACCES AU BOÎTIER ?</string>
+	<string name="string_when_was_the___">QUEL EST LE DERNIER ACCES ?</string>
+	<string name="string_curr_active_prog___">Programme actif </string>
+	<string name="string_choice_program">Choix du Programme</string>
+	<string name="string_modify_program">Changer de Programme</string>
+	<string name="string_activate">Activer</string>
+	<string name="string_modify">Modifier</string>
+	<string name="string_optimized_consume___">Optimisation de le consomation</string>
+	
+	
+	<string name="start_time">HEURE DE DÉBUT</string>
+	<string name="end_time">HEURE DE FIN</string>
+	<string name="targeted_temperature">TEMPERATURE CIBLEE</string>
+	<string name="Start_and_end_of_the_period">Début et fin de la période</string>
+	
+	<string name="text_now">maintenant</string>
+	
+	<string name="text_provider">Fournisseur</string>
+	<string name="text_contract">Contrat</string>
+	<string name="text_subscription">Abonnement</string>
+	
+	<string name="text_consumption">Consommation</string>
+	<string name="text_heating">chauffage</string>
+	<string name="text_hotwater">chauffe eau</string>
+	
+	<string name="text_automatic">Automatique</string>
+	
+	<string name="text_YES">OUI</string>
+	<string name="text_NO">NON</string>
+	<string name="text_Cancel">Annuler</string>
+	<string name="text_Save">Enregistrer</string>
+	<string name="text_Start">DÉBUT</string>
+	<string name="text_End">FIN</string>
+	<string name="text_Validate">Valider</string>
+
+    <string name="Copy_zone">Copier zone</string>
+    <string name="Merge_zones">Fusionner zones</string>
+	
+	
+	
+	<string-array name="periods">
+        <item>instantaneous</item>
+        <item>heure</item>
+        <item>jour</item>
+        <item>mois</item>
+    </string-array>
+    
+	<string-array name="consume_case">
+        <item>usages</item>
+        <item>compteurs</item>
+    </string-array>
+    
+	<string-array name="days">
+        <item>Lundi</item>
+        <item>Mardi</item>
+        <item>Mercredi</item>
+        <item>Jeudi</item>
+        <item>Vendredi</item>
+        <item>Samedi</item>
+        <item>Dimanche</item>
+    </string-array>
+    
+	
+</resources>

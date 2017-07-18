@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+	<item
+        android:id="@+id/action_week_1"
+        android:orderInCategory="4001"
+        android:showAsAction="never"
+        android:title="Copier zone 1"/>
+    
+    <item
+        android:id="@+id/action_week_2"
+        android:orderInCategory="4002"
+        android:showAsAction="never"
+        android:title="Copier zone 2"/>
+    
+    <item
+        android:id="@+id/action_week_3"
+        android:orderInCategory="4003"
+        android:showAsAction="never"
+        android:title="Fusionner avec zone 1"/>
+    
+    <item
+        android:id="@+id/action_week_4"
+        android:orderInCategory="4004"
+        android:showAsAction="never"
+        android:title="Fusionner avec zone 2"/>
+    
+</menu>
+<!-- From: file:/Volumes/WORK/AndroidStudio/Aikos/aikos/src/main/res/menu/action_menu_week.xml -->

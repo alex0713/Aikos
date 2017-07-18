@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/_Indigo"
+    android:padding="@dimen/activity_vertical_margin"
+    android:gravity="center_horizontal" >
+    
+    
+    <ImageView
+        android:layout_marginTop="@dimen/padding_vlarge"
+        android:layout_margin="@dimen/padding_small"
+        android:layout_width="@dimen/large_icon_size"
+        android:layout_height="@dimen/large_icon_size"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_launcher" />
+    
+    <EditText
+        android:id="@+id/edittextUserId"
+        android:layout_margin="@dimen/padding_tiny"
+        android:paddingLeft="@dimen/padding_tiny"
+        android:paddingRight="@dimen/padding_tiny"
+        android:layout_width="@dimen/login_activity_edittext_width"
+        android:layout_height="@dimen/login_activity_edittext_height"
+        android:background="@drawable/bg_white_round"
+        android:singleLine="true"
+        android:hint="@string/text_id" />
+    
+    <EditText
+        android:id="@+id/edittextPassword"
+        android:layout_margin="@dimen/padding_tiny"
+        android:paddingLeft="@dimen/padding_tiny"
+        android:paddingRight="@dimen/padding_tiny"
+        android:layout_width="@dimen/login_activity_edittext_width"
+        android:layout_height="@dimen/login_activity_edittext_height"
+        android:inputType="textPassword"
+        android:background="@drawable/bg_white_round"
+        android:singleLine="true"
+        android:hint="@string/text_password" />
+    
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_margin="@dimen/padding_tiny"
+        android:layout_width="@dimen/login_activity_edittext_width"
+        android:layout_height="@dimen/login_activity_edittext_height"
+        android:background="@drawable/bg_green_round"
+        android:text="@string/text_button_login"
+        android:onClick="onLogin" />
+    
+    <Button
+        android:id="@+id/buttonGoJoin"
+        android:layout_margin="@dimen/padding_tiny"
+        android:layout_width="@dimen/login_activity_edittext_width"
+        android:layout_height="@dimen/login_activity_edittext_height"
+        android:background="#00000000"
+        android:textColor="#FFFFFF"
+        android:text="@string/text_button_join"
+        android:onClick="onGoJoin" />
+    
+    <Button
+        android:id="@+id/buttonGoForgotPassword"
+        android:layout_margin="@dimen/padding_tiny"
+        android:layout_width="@dimen/login_activity_edittext_width"
+        android:layout_height="@dimen/login_activity_edittext_height"
+        android:background="#00000000"
+        android:textColor="#FFFFFF"
+        android:text="@string/text_button_forgot_password"
+        android:onClick="onGoForgotPassword" />
+    
+
+</LinearLayout>
+<!-- From: file:/Volumes/WORK/AndroidStudio/Aikos/aikos/src/main/res/layout/fragment_login.xml -->

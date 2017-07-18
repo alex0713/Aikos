@@ -1,0 +1,152 @@
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <!-- The main content view -->
+    <android.support.v4.view.ViewPager xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:id="@+id/mainPager"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent">
+	
+	    <!--
+	    This title strip will display the currently visible page title, as well as the page
+	    titles for adjacent pages.
+	    -->
+	    <android.support.v4.view.PagerTitleStrip
+	        android:id="@+id/pager_title_strip"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="top"
+	        android:background="@color/color_light_gray"
+	        android:textColor="@color/color_dark_gray"
+	        android:paddingTop="@dimen/padding_tiny"
+	        android:paddingBottom="@dimen/padding_tiny"
+	        android:textSize="@dimen/font_size_6" />
+	
+	</android.support.v4.view.ViewPager>
+	
+    <!-- The navigation drawer -->
+    <LinearLayout
+        android:id="@+id/leftPanel"
+        android:layout_width="@dimen/left_panel_width"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="start"
+        android:background="@color/color_white" >
+	    
+        <LinearLayout
+            android:layout_width="match_parent"
+	        android:layout_height="0dp"
+	        android:layout_weight="10"
+	        android:orientation="horizontal" >
+	        
+            <RelativeLayout
+                android:id="@+id/layoutPeriod"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+                
+                <Spinner
+				    android:id="@+id/spinnerConsumePeriod"
+				    android:layout_width="match_parent"
+				    android:layout_height="match_parent" />
+                
+                <TextView
+                    android:padding="@dimen/padding_tiny"
+					android:layout_width="match_parent"
+		  			android:layout_height="match_parent"
+		  			android:text="@string/text_CAP_PERIOD"
+		  			android:textColor="@color/color_dark_gray"
+		  			android:textSize="@dimen/font_size_7"
+		  			android:gravity="center_horizontal|top" />
+                
+            </RelativeLayout>
+            
+            <LinearLayout
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/color_inactive_gray"
+                android:layout_marginTop="@dimen/padding_tiny"
+                android:layout_marginBottom="@dimen/padding_tiny" >
+                
+            </LinearLayout>
+            
+            <RelativeLayout
+                android:id="@+id/layoutUnit"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="@dimen/padding_tiny" >
+                
+                <TextView
+				    android:id="@+id/textviewConsumeEuros"
+					android:layout_width="match_parent"
+		  			android:layout_height="match_parent"
+		  			android:text="@string/text_CAP_EUROS"
+		  			android:textColor="@color/color_pink"
+		  			android:gravity="center_horizontal|bottom"
+		  			android:textSize="@dimen/font_size_6" />
+                
+                <TextView
+					android:layout_width="match_parent"
+		  			android:layout_height="match_parent"
+		  			android:text="@string/text_CAP_EUROS"
+		  			android:textColor="@color/color_dark_gray"
+		  			android:textSize="@dimen/font_size_7"
+		  			android:gravity="center_horizontal|top" />
+                
+            </RelativeLayout>
+            
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="@dimen/padding_tiny"
+            android:layout_marginRight="@dimen/padding_tiny"
+            android:background="@color/color_inactive_gray" >
+            
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+	        android:layout_height="0dp"
+	        android:layout_weight="10" >
+            
+            <Spinner
+			    android:id="@+id/spinnerConsumeUsages"
+			    android:layout_width="match_parent"
+			    android:layout_height="match_parent" />
+            
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="@dimen/padding_tiny"
+            android:layout_marginRight="@dimen/padding_tiny"
+            android:background="@color/color_inactive_gray" >
+            
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+	        android:layout_height="0dp"
+	        android:layout_weight="35"
+	        android:padding="@dimen/padding_tiny" >
+            
+            <ListView
+		        android:id="@+id/listviewConsume"
+		        android:layout_width="match_parent"
+		        android:layout_height="match_parent"
+		        android:background="@color/color_white" />
+            
+        </LinearLayout>
+	    
+    </LinearLayout>
+    
+</android.support.v4.widget.DrawerLayout>
+
+

@@ -1,0 +1,161 @@
+{
+
+
+    "version" : "1.1",
+
+    "fluid" : [
+        "electricity",
+        "gas",
+        "hotWater",
+        "heating",
+        "coldWater"
+    ],
+
+
+    "electricityContracts" : {
+        "description" : {
+            "subscriptionUnit" : {
+                "EN" : "€\/year",
+                "FR" : "€\/an"
+                },
+            "consumptionUnit" : "c€\/kWh"
+        },
+        "data" : [           
+            {
+                "provider" : "edf",
+                "contractName" : "bleu option heures pleines heures creuses",
+                "subscription" : "92.53",
+                "consumption" : ["10.60","15.35"]
+            },
+            {
+                "provider" : "edf",
+                "contractName" : "bleu option base",
+                "subscription" : "86.48",
+                "consumption" : ["14.03"]
+            },
+            {
+                "provider" : "direct energie",
+                "contractName" : "directe electricite",
+                "subscription" : "86.52",
+                "consumption" : ["13.42"],
+            }
+        ]
+    },
+
+
+    "gasContracts" : {
+        "description" : {
+            "subscriptionUnit" : {
+                "EN" : "€\/year",
+                "FR" : "€\/an"
+                },
+            "consumptionUnit" : "c€\/kWh"
+        },
+        "data" : [           
+            {
+                "provider" : "edf",
+                "contractName" : "offre gaz <6000 kWh\/an",
+                "subscription" : "118.08",
+                "consumption" : ["7.63"]
+            },
+            {
+                "provider" : "edf",
+                "contractName" : "offre gaz entre 6000 et 11000 kWh\/an",
+                "subscription" : "242.4",
+                "consumption" : ["5.78"]
+            },
+                        {
+                "provider" : "edf",
+                "contractName" : "offre gaz >11000 kWh\/an",
+                "subscription" : "263.16",
+                "consumption" : ["5.60"]
+            },
+
+            {
+                "provider" : "direct energie",
+                "contractName" : "directe gaz <6000 kWh\/an",
+                "subscription" : "65.64",
+                "consumption" : ["9.59"]
+            },
+            {
+                "provider" : "direct energie",
+                "contractName" : "directe gaz entre 6000 et 11000 kWh\/an",
+                "subscription" : "77.52",
+                "consumption" : ["9.59"]
+            },
+            {
+                "provider" : "direct energie",
+                "contractName" : "directe gaz >11000 kWh\/an",
+                "subscription" : "223.56",
+                "consumption" : ["5.43"]
+            }
+        ]
+    },
+
+    "waterContracts" : {
+        "description" : {
+            "subscriptionUnit" : {
+                "EN" : "€\/year",
+                "FR" : "€\/an"
+                },
+            "consumptionUnit" : "€\/m3"
+        },
+        "data" : [           
+            {
+                "provider" : "veolia",
+                "contractName" : "eau de ville",
+                "subscription" : "0",
+                "consumption" : ["3.78"] 
+            },
+        ]
+    },
+
+        "waterContracts" : {
+        "description" : {
+            "subscriptionUnit" : {
+                "EN" : "€\/year",
+                "FR" : "€\/an"
+                },
+            "consumptionUnit" : "€\/m3"
+        },
+        "data" : [           
+            {
+                "provider" : "-1",
+                "contractName" : "-1",
+                "subscription" : "0",
+                "consumption" : ["3.78"] 
+            },
+        ]
+    },
+
+
+
+
+
+
+    "usages" : [
+        "heating",
+        "cooling",
+        "lightning",
+        "hotWater",
+        "plugs",
+        "others"
+    ],
+
+    "circuitnumber" : 3,
+
+    "isHeatingEnabled" : true,
+
+    "isHotWaterEnabled" : true,
+
+    "heating" : {
+        "type" : "filPilote4",
+        "orders" : ["off","hors gel","éco","22-23"],
+    },
+
+
+}
+
+
+
+

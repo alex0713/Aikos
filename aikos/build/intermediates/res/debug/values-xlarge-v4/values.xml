@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Volumes/WORK/AndroidStudio/Aikos/aikos/build/intermediates/exploded-aar/Aikos/aikosLibrary/unspecified/res/values-xlarge-v4/values.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="font_size_1">94dp</dimen>
+    <dimen name="font_size_2">40dp</dimen>
+    <dimen name="font_size_3">32dp</dimen>
+    <dimen name="font_size_4">30dp</dimen>
+    <dimen name="font_size_5">26dp</dimen>
+    <dimen name="font_size_6">24dp</dimen>
+    <dimen name="font_size_7">22dp</dimen>
+    <dimen name="font_size_pagetitle">24dp</dimen>
+    <dimen name="font_size_t1">60dp</dimen>
+    <dimen name="intraday_timeline_width">1500dp</dimen>
+    <dimen name="large_icon_size">114dp</dimen>
+    <dimen name="left_panel_width">480dp</dimen>
+    <dimen name="login_activity_edittext_height">45dp</dimen>
+    <dimen name="login_activity_edittext_width">300dp</dimen>
+    <dimen name="normal_icon_size">44dp</dimen>
+    <dimen name="padding_large">40dp</dimen>
+    <dimen name="padding_normal">20dp</dimen>
+    <dimen name="padding_small">10dp</dimen>
+    <dimen name="padding_tiny">5dp</dimen>
+    <dimen name="padding_vlarge">100dp</dimen>
+    <dimen name="slider_thumb_width">20dp</dimen>
+    <dimen name="small_icon_size">24dp</dimen>
+</resources>

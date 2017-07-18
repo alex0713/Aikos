@@ -1,0 +1,113 @@
+
+{
+
+    "version" : "1.1",
+
+
+    "temperatureOffset" :  {
+        "lastModifier" : "Xiao",
+        "lastModified" : "131244563564",
+        "unit" : "°C",
+        "values" :
+        [
+        "2.1",      
+        "2.3",
+        "-2.4"
+        ]
+    },
+
+    "userProfile" : {
+        "firstName" : "xiao",
+        "lastName" : "yue",
+        "email" : "xiayue@aikos.com",
+        "password" : "itisasecret",
+        "language" : "FR"
+    },
+
+    "housingProfile" : {
+        "lastModified":"-1",
+        "lastModifier":"init",
+        "thermicIndex":"D",
+        "numberOfRooms":"4",
+        "heightUnit":"m",
+        "height" : "3.20",
+        "surface":"60",
+        "surfaceUnit":"m2",
+        "city" : "Shenyang",
+        "country" : "China",
+        "zipCode":"75015"
+    },
+
+
+    "userNames" : {
+        "lastModifier" : "Xiao",
+        "lastModified" : "131244563564",
+        "circuits" : [
+            "first circuit",
+            "second circuit",
+            "third circuit"
+            ],
+        "zones" : [
+            "fist zone",
+            "second zone",
+            "third zone"
+            ],
+        "programs" : [
+            "auto",
+            "continu",
+            "my first program",
+            "my second program"
+            ]
+    },
+
+
+    "contracts" : [
+        {
+            "name" : "electricity",
+            "lastModifier" : "box",
+            "lastModified":"123545424",
+            "provider" : "edf",
+            "contract" : "tarif bleu option base",
+            "currentConsoTariff" : ["0.12","0.15"],
+            "currentSubscriptionTariff" : "12.35",
+            "nextConsoTariff" : ["0.13", "0.16"],
+            "nextSubscriptionTariff" : "15.50",
+            "dateShift" : "08,12,2014"
+        },
+        {
+            "name" : "hotWater",
+            "lastModifier" : "server",
+            "lastModified" : "1235454543",
+            "currentConsoTariff" : ["0.12"],
+            "currentSubscriptionTariff" : "12.35",
+            "nextConsoTariff" : ["0.13"],
+            "nextSubscriptionTariff" : "15.50",
+            "dateShift" : "09,15,2014"
+        },
+        {
+            "name" : "gas",
+            "lastModifier" : "server",
+            "lastModified" : "1235454543",
+            "provider" : "direct energie",
+            "contractName" : "directe <6000 Wh/an"
+
+        }
+    ],
+
+    "whoHasAccess" : [
+        {
+            "firstName" : "Xiao",
+            "lastName" : "Yue",
+            "lastDate" : "11,24,2014",
+            "lastTime" : "12:52:23"
+        },
+        {
+            "firstName" : "Paul",
+            "lastName" : "Johnson",
+            "lastDate" : "10,21,2014",
+            "lastTime" : "12:23:21"
+        }
+
+    ]
+}
+

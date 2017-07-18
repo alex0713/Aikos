@@ -1,0 +1,49 @@
+{
+
+    "version" : "1.0",
+    
+    "program" : {
+        "index" : "2",
+        "lastModified" : "-1",
+        "lastModifier" : "init"
+    },
+
+    "optimisationEnabled" : {
+        "value" : "true", 
+        "lastModified" : "-1",
+        "lastModifier" : "init"      
+    },
+
+    "holidays" : {
+        "startDate" : "12,2,2014",
+        "startTime" : "22:20",
+        "endDate" : "12, 24,2014",
+        "endTime" : "24:00" 
+    },
+
+    "week-end" : {
+        "startDate" : "12,2,2014",
+        "startTime" : "22:20",
+        "endDate" : "12, 24,2014",
+        "endTime" : "24:00" 
+    },
+
+    "programforecasts" : [
+        ["13", "14", "24", "23.3","42.2"],
+        ["13", "14", "24", "23.3","42.2"],
+        ["13", "14", "24", "23.3","42.2"],
+        ["13", "14", "24", "23.3","42.2"]   
+    ],
+
+    "optimisation" : {
+        "begins" : "14:30",
+        "ends" : "15:00",
+        "order" : ["18-19","18-19","18-19","off"],
+        "rationale" : "curtailment",
+    },
+
+    "optimisationCancelled" : {
+        "value" : false,
+        "lastModified" : "-1",
+        "lastModifier" : "init"  
+}

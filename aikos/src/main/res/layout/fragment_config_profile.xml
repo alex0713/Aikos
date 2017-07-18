@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/color_dark_gray"
+    android:padding="1dp" >
+    
+    <ScrollView
+        android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:background="@color/color_white" >
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+    		android:orientation="vertical" >
+    		
+            <LinearLayout
+	            android:layout_width="match_parent"
+	    		android:layout_height="wrap_content"
+	    		android:layout_margin="@dimen/padding_tiny"
+	    		android:paddingLeft="@dimen/padding_normal"
+			    android:paddingRight="@dimen/padding_normal"
+	    		android:orientation="horizontal" >
+	            
+                <TextView
+                    android:layout_width="0dp"
+	    			android:layout_height="@dimen/login_activity_edittext_height"
+	    			android:layout_weight="1"
+	    			android:text="@string/text_firstname"
+	    			android:textColor="@color/color_mdark_gray"
+	    			android:textSize="@dimen/font_size_4" />
+	            
+                <EditText
+			        android:id="@+id/edittextJoinFirstName"
+			        android:paddingLeft="@dimen/padding_tiny"
+			        android:paddingRight="@dimen/padding_tiny"
+			        android:layout_width="0dp"
+	    			android:layout_height="@dimen/login_activity_edittext_height"
+	    			android:layout_weight="4"
+			        android:background="@drawable/bg_white_bordered"
+			        android:singleLine="true"
+			        android:textColor="@color/color_mdark_gray"
+			        android:textSize="@dimen/font_size_4" />
+                
+	        </LinearLayout>
+            
+            <LinearLayout
+	            android:layout_width="match_parent"
+	    		android:layout_height="1dp"
+	    		android:layout_margin="@dimen/padding_tiny"
+	    		android:background="@color/color_inactive_gray" >
+	            
+	        </LinearLayout>
+	        
+            
+            <LinearLayout
+	            android:layout_width="match_parent"
+	    		android:layout_height="wrap_content"
+	    		android:layout_margin="@dimen/padding_tiny"
+	    		android:paddingLeft="@dimen/padding_normal"
+			    android:paddingRight="@dimen/padding_normal"
+	    		android:orientation="horizontal" >
+	            
+                <TextView
+                    android:layout_width="0dp"
+	    			android:layout_height="@dimen/login_activity_edittext_height"
+	    			android:layout_weight="1"
+	    			android:text="@string/text_name"
+	    			android:textColor="@color/color_mdark_gray"
+	    			android:textSize="@dimen/font_size_4" />
+	            
+                <EditText
+			        android:id="@+id/edittextJoinName"
+			        android:paddingLeft="@dimen/padding_tiny"
+			        android:paddingRight="@dimen/padding_tiny"
+			        android:layout_width="0dp"
+	    			android:layout_height="@dimen/login_activity_edittext_height"
+	    			android:layout_weight="4"
+			        android:background="@drawable/bg_white_bordered"
+			        android:singleLine="true"
+			        android:textColor="@color/color_mdark_gray"
+			        android:textSize="@dimen/font_size_4" />
+                
+	        </LinearLayout>
+            
+            <LinearLayout
+	            android:layout_width="match_parent"
+	    		android:layout_height="1dp"
+	    		android:layout_margin="@dimen/padding_tiny"
+	    		android:background="@color/color_inactive_gray" >
+	            
+	        </LinearLayout>
+	        
+            
+            
+            <LinearLayout
+	            android:layout_width="match_parent"
+	    		android:layout_height="wrap_content"
+	    		android:layout_margin="@dimen/padding_tiny"
+	    		android:paddingLeft="@dimen/padding_normal"
+			    android:paddingRight="@dimen/padding_normal"
+	    		android:orientation="horizontal" >
+	            
+                <TextView
+                    android:layout_width="0dp"
+	    			android:layout_height="@dimen/login_activity_edittext_height"
+	    			android:layout_weight="1"
+	    			android:text="@string/text_login"
+	    			android:textColor="@color/color_mdark_gray"
+	    			android:textSize="@dimen/font_size_4" />
+	            
+                <EditText
+			        android:id="@+id/edittextJoinLogin"
+			        android:paddingLeft="@dimen/padding_tiny"
+			        android:paddingRight="@dimen/padding_tiny"
+			        android:layout_width="0dp"
+	    			android:layout_height="@dimen/login_activity_edittext_height"
+	    			android:layout_weight="4"
+			        android:background="@drawable/bg_white_bordered"
+			        android:singleLine="true"
+			        android:hint="@string/hint_login"
+			        android:textColor="@color/color_mdark_gray"
+			        android:textSize="@dimen/font_size_4" />
+                
+	        </LinearLayout>
+            
+            <LinearLayout
+	            android:layout_width="match_parent"
+	    		android:layout_height="1dp"
+	    		android:layout_margin="@dimen/padding_tiny"
+	    		android:background="@color/color_inactive_gray" >
+	            
+	        </LinearLayout>
+	        
+            
+            
+            <LinearLayout
+	            android:layout_width="match_parent"
+	    		android:layout_height="wrap_content"
+	    		android:layout_margin="@dimen/padding_tiny"
+	    		android:paddingLeft="@dimen/padding_normal"
+			    android:paddingRight="@dimen/padding_normal"
+	    		android:orientation="horizontal" >
+	            
+                <TextView
+                    android:layout_width="0dp"
+	    			android:layout_height="@dimen/login_activity_edittext_height"
+	    			android:layout_weight="1"
+	    			android:text="@string/text_password"
+	    			android:textColor="@color/color_mdark_gray"
+	    			android:textSize="@dimen/font_size_4" />
+	            
+                <EditText
+			        android:id="@+id/edittextJoinPasswd1"
+			        android:paddingLeft="@dimen/padding_tiny"
+			        android:paddingRight="@dimen/padding_tiny"
+			        android:layout_width="0dp"
+	    			android:layout_height="@dimen/login_activity_edittext_height"
+	    			android:layout_weight="4"
+			        android:background="@drawable/bg_white_bordered"
+			        android:singleLine="true"
+			        android:inputType="textPassword"
+			        android:textColor="@color/color_mdark_gray"
+			        android:textSize="@dimen/font_size_4" />
+                
+	        </LinearLayout>
+            
+            <LinearLayout
+	            android:layout_width="match_parent"
+	    		android:layout_height="1dp"
+	    		android:layout_margin="@dimen/padding_tiny"
+	    		android:background="@color/color_inactive_gray" >
+	            
+	        </LinearLayout>
+	        
+            
+            
+            <LinearLayout
+	            android:layout_width="match_parent"
+	    		android:layout_height="wrap_content"
+	    		android:layout_margin="@dimen/padding_tiny"
+	    		android:paddingLeft="@dimen/padding_normal"
+			    android:paddingRight="@dimen/padding_normal"
+	    		android:orientation="horizontal" >
+	            
+                <TextView
+                    android:layout_width="0dp"
+	    			android:layout_height="@dimen/login_activity_edittext_height"
+	    			android:layout_weight="1"
+	    			android:text="@string/text_password"
+	    			android:textColor="@color/color_mdark_gray"
+	    			android:textSize="@dimen/font_size_4" />
+	            
+                <EditText
+			        android:id="@+id/edittextJoinPasswd2"
+			        android:paddingLeft="@dimen/padding_tiny"
+			        android:paddingRight="@dimen/padding_tiny"
+			        android:layout_width="0dp"
+	    			android:layout_height="@dimen/login_activity_edittext_height"
+	    			android:layout_weight="4"
+			        android:background="@drawable/bg_white_bordered"
+			        android:singleLine="true"
+			        android:inputType="textPassword"
+			        android:textColor="@color/color_mdark_gray"
+			        android:textSize="@dimen/font_size_4" />
+                
+	        </LinearLayout>
+            
+            <LinearLayout
+	            android:layout_width="match_parent"
+	    		android:layout_height="1dp"
+	    		android:layout_margin="@dimen/padding_tiny"
+	    		android:background="@color/color_inactive_gray" >
+	            
+	        </LinearLayout>
+	        
+            
+            
+            <LinearLayout
+	            android:layout_width="match_parent"
+	    		android:layout_height="wrap_content"
+	    		android:layout_margin="@dimen/padding_tiny"
+	    		android:paddingLeft="@dimen/padding_normal"
+			    android:paddingRight="@dimen/padding_normal"
+	    		android:orientation="horizontal" >
+	            
+                <TextView
+                    android:layout_width="0dp"
+	    			android:layout_height="@dimen/login_activity_edittext_height"
+	    			android:layout_weight="10"
+	    			android:text="@string/text_long_identifier"
+	    			android:textColor="@color/color_mdark_gray"
+	    			android:textSize="@dimen/font_size_4" />
+	            
+                <EditText
+			        android:id="@+id/edittextJoinLongId"
+			        android:paddingLeft="@dimen/padding_tiny"
+			        android:paddingRight="@dimen/padding_tiny"
+			        android:layout_width="0dp"
+	    			android:layout_height="@dimen/login_activity_edittext_height"
+	    			android:layout_weight="40"
+			        android:background="@drawable/bg_white_bordered"
+			        android:singleLine="true"
+			        android:inputType="number"
+			        android:textColor="@color/color_mdark_gray"
+			        android:textSize="@dimen/font_size_4" />
+                
+                <LinearLayout
+                    android:layout_width="0dp"
+	    			android:layout_height="@dimen/login_activity_edittext_height"
+	    			android:layout_weight="0"
+	    			android:gravity="center_vertical|right" >
+	    			
+                    <Button
+                        android:id="@+id/buttonHelpLongId"
+                        android:layout_width="@dimen/login_activity_edittext_height"
+                        android:layout_height="@dimen/login_activity_edittext_height"
+                        android:background="@drawable/icon_help" />
+                    
+                </LinearLayout>
+                
+	        </LinearLayout>
+            
+            <LinearLayout
+	            android:layout_width="match_parent"
+	    		android:layout_height="1dp"
+	    		android:layout_margin="@dimen/padding_tiny"
+	    		android:background="@color/color_inactive_gray" >
+	            
+	        </LinearLayout>
+	        
+            
+            <LinearLayout
+	            android:layout_width="match_parent"
+	    		android:layout_height="wrap_content"
+	    		android:layout_margin="@dimen/padding_tiny"
+	    		android:paddingLeft="@dimen/padding_normal"
+			    android:paddingRight="@dimen/padding_normal"
+	    		android:orientation="horizontal" >
+	            
+                <TextView
+                    android:layout_width="0dp"
+	    			android:layout_height="@dimen/login_activity_edittext_height"
+	    			android:layout_weight="10"
+	    			android:text="@string/text_short_identifier"
+	    			android:textColor="@color/color_mdark_gray"
+	    			android:textSize="@dimen/font_size_4" />
+	            
+                <EditText
+			        android:id="@+id/edittextJoinShortId"
+			        android:paddingLeft="@dimen/padding_tiny"
+			        android:paddingRight="@dimen/padding_tiny"
+			        android:layout_width="0dp"
+	    			android:layout_height="@dimen/login_activity_edittext_height"
+	    			android:layout_weight="40"
+			        android:background="@drawable/bg_white_bordered"
+			        android:singleLine="true"
+			        android:inputType="number"
+			        android:textColor="@color/color_mdark_gray"
+			        android:textSize="@dimen/font_size_4" />
+                
+                <LinearLayout
+                    android:layout_width="0dp"
+	    			android:layout_height="@dimen/login_activity_edittext_height"
+	    			android:layout_weight="0"
+	    			android:gravity="center_vertical|right" >
+	    			
+                    <Button
+                        android:id="@+id/buttonHelpShortId"
+                        android:layout_width="@dimen/login_activity_edittext_height"
+                        android:layout_height="@dimen/login_activity_edittext_height"
+                        android:background="@drawable/icon_help" />
+                    
+                </LinearLayout>
+                
+	        </LinearLayout>
+            
+            <LinearLayout
+	            android:layout_width="match_parent"
+	    		android:layout_height="1dp"
+	    		android:layout_margin="@dimen/padding_tiny"
+	    		android:background="@color/color_inactive_gray" >
+	            
+	        </LinearLayout>
+            
+            
+            
+        </LinearLayout>
+        
+    </ScrollView>
+
+</LinearLayout>

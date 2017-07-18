@@ -1,0 +1,35 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 19
+    buildToolsVersion "21.1.2"
+
+    defaultConfig {
+        applicationId "com.devel.aikos"
+        minSdkVersion 14
+        targetSdkVersion 18
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+//repositories {
+//    flatDir {
+//        dirs 'libs'
+//    }
+//}
+//
+//dependencies {
+//    compile(name:'aikosLibrary-release', ext:'aar')
+//}
+
+dependencies {
+    compile project(':mPChartLib')
+    compile 'com.android.support:support-v4:21.0.3'
+    compile project(':aikosLibrary')
+}

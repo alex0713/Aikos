@@ -1,0 +1,7 @@
+/Volumes/WORK/AndroidStudio/Aikos/aikos/build/intermediates/classes/debug
+/Volumes/WORK/AndroidStudio/Aikos/aikos/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-2772fe45b0904ed19fb9357dffd73da7cc529ee7.jar
+/Volumes/WORK/AndroidStudio/Aikos/aikos/build/intermediates/pre-dexed/debug/classes-88113419c1ae82686d87d4e030752a5469df864d.jar
+/Volumes/WORK/AndroidStudio/Aikos/aikos/build/intermediates/pre-dexed/debug/nineoldandroids-2.4.0-2-ec46a8f6fa1bc616aa65460531d66353ad17d18b.jar
+/Volumes/WORK/AndroidStudio/Aikos/aikos/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-8ab6e87d3df4b24027f626a3753638fdc26e2a12.jar
+/Volumes/WORK/AndroidStudio/Aikos/aikos/build/intermediates/pre-dexed/debug/classes-7587d67560aded3c240c25bc06b0ad10bbbc9e68.jar
+/Volumes/WORK/AndroidStudio/Aikos/aikos/build/intermediates/pre-dexed/debug/classes-0e159de0ba5a6bbe1e46dcbb086e5503e182ec5e.jar

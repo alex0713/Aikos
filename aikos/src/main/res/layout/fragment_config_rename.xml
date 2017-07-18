@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/color_dark_gray"
+    android:padding="1dp" >
+    
+    <ScrollView
+        android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:background="@color/color_white" >
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+    		android:orientation="vertical" >
+    		
+            <LinearLayout
+				android:layout_width="match_parent"
+		  		android:layout_height="wrap_content"
+		  		android:padding="@dimen/padding_tiny"
+		  		android:paddingLeft="@dimen/padding_normal"
+		    	android:paddingRight="@dimen/padding_normal"
+		  		android:orientation="horizontal"
+		  		android:background="@color/color_inactive_gray" >
+		          
+				<TextView
+					android:layout_width="0dp"
+		   			android:layout_height="@dimen/login_activity_edittext_height"
+		   			android:layout_weight="2"
+		  			android:text="@string/text_CAP_circuits"
+		  			android:textColor="@color/color_mdark_gray"
+		  			android:gravity="center_vertical"
+		  			android:textSize="@dimen/font_size_4" />
+		             
+			</LinearLayout>            
+			
+			<LinearLayout
+				android:layout_width="match_parent"
+		  		android:layout_height="wrap_content"
+		  		android:layout_margin="@dimen/padding_tiny"
+		  		android:paddingLeft="@dimen/padding_normal"
+		    	android:paddingRight="@dimen/padding_normal"
+		  		android:orientation="horizontal" >
+		          
+				<TextView
+				    android:id="@+id/textviewConfRenameLabel1"
+					android:layout_width="0dp"
+		   			android:layout_height="@dimen/login_activity_edittext_height"
+		   			android:layout_weight="2"
+		  			android:text="@string/text_CAP_circuits"
+		  			android:textColor="@color/color_mdark_gray"
+		  			android:gravity="center_vertical"
+		  			android:textSize="@dimen/font_size_4" />
+				
+				<EditText
+			        android:id="@+id/edittextConfRename1"
+			        android:paddingLeft="@dimen/padding_tiny"
+			        android:paddingRight="@dimen/padding_tiny"
+			        android:layout_width="0dp"
+		   			android:layout_height="@dimen/login_activity_edittext_height"
+		   			android:layout_weight="4"
+			        android:background="@drawable/bg_white_bordered"
+			        android:singleLine="true"
+			        android:textColor="@color/color_mdark_gray"
+			        android:textSize="@dimen/font_size_4" />
+		             
+			</LinearLayout>
+			
+			<LinearLayout
+	            android:layout_width="match_parent"
+	    		android:layout_height="1dp"
+	    		android:layout_margin="@dimen/padding_tiny"
+	    		android:background="@color/color_inactive_gray" >	            
+	        </LinearLayout>
+	        
+			<LinearLayout
+				android:layout_width="match_parent"
+		  		android:layout_height="wrap_content"
+		  		android:layout_margin="@dimen/padding_tiny"
+		  		android:paddingLeft="@dimen/padding_normal"
+		    	android:paddingRight="@dimen/padding_normal"
+		  		android:orientation="horizontal" >
+		          
+				<TextView
+				    android:id="@+id/textviewConfRenameLabel2"
+					android:layout_width="0dp"
+		   			android:layout_height="@dimen/login_activity_edittext_height"
+		   			android:layout_weight="2"
+		  			android:text="@string/text_CAP_circuits"
+		  			android:textColor="@color/color_mdark_gray"
+		  			android:gravity="center_vertical"
+		  			android:textSize="@dimen/font_size_4" />
+				
+				<EditText
+			        android:id="@+id/edittextConfRename2"
+			        android:paddingLeft="@dimen/padding_tiny"
+			        android:paddingRight="@dimen/padding_tiny"
+			        android:layout_width="0dp"
+		   			android:layout_height="@dimen/login_activity_edittext_height"
+		   			android:layout_weight="4"
+			        android:background="@drawable/bg_white_bordered"
+			        android:singleLine="true"
+			        android:textColor="@color/color_mdark_gray"
+			        android:textSize="@dimen/font_size_4" />
+		             
+			</LinearLayout>
+			
+			<LinearLayout
+	            android:layout_width="match_parent"
+	    		android:layout_height="1dp"
+	    		android:layout_margin="@dimen/padding_tiny"
+	    		android:background="@color/color_inactive_gray" >	            
+	        </LinearLayout>
+	        
+			<LinearLayout
+				android:layout_width="match_parent"
+		  		android:layout_height="wrap_content"
+		  		android:layout_margin="@dimen/padding_tiny"
+		  		android:paddingLeft="@dimen/padding_normal"
+		    	android:paddingRight="@dimen/padding_normal"
+		  		android:orientation="horizontal" >
+		          
+				<TextView
+				    android:id="@+id/textviewConfRenameLabel3"
+					android:layout_width="0dp"
+		   			android:layout_height="@dimen/login_activity_edittext_height"
+		   			android:layout_weight="2"
+		  			android:text="@string/text_CAP_circuits"
+		  			android:textColor="@color/color_mdark_gray"
+		  			android:gravity="center_vertical"
+		  			android:textSize="@dimen/font_size_4" />
+				
+				<EditText
+			        android:id="@+id/edittextConfRename3"
+			        android:paddingLeft="@dimen/padding_tiny"
+			        android:paddingRight="@dimen/padding_tiny"
+			        android:layout_width="0dp"
+		   			android:layout_height="@dimen/login_activity_edittext_height"
+		   			android:layout_weight="4"
+			        android:background="@drawable/bg_white_bordered"
+			        android:singleLine="true"
+			        android:textColor="@color/color_mdark_gray"
+			        android:textSize="@dimen/font_size_4" />
+		             
+			</LinearLayout>
+			
+			
+	        
+			
+			
+			<LinearLayout
+				android:layout_width="match_parent"
+		  		android:layout_height="wrap_content"
+		  		android:padding="@dimen/padding_tiny"
+		  		android:paddingLeft="@dimen/padding_normal"
+		    	android:paddingRight="@dimen/padding_normal"
+		  		android:orientation="horizontal"
+		  		android:background="@color/color_inactive_gray" >
+		          
+				<TextView
+					android:layout_width="0dp"
+		   			android:layout_height="@dimen/login_activity_edittext_height"
+		   			android:layout_weight="2"
+		  			android:text="@string/text_CAP_programme"
+		  			android:textColor="@color/color_mdark_gray"
+		  			android:gravity="center_vertical"
+		  			android:textSize="@dimen/font_size_4" />
+		             
+			</LinearLayout>            
+			
+			<LinearLayout
+				android:layout_width="match_parent"
+		  		android:layout_height="wrap_content"
+		  		android:layout_margin="@dimen/padding_tiny"
+		  		android:paddingLeft="@dimen/padding_normal"
+		    	android:paddingRight="@dimen/padding_normal"
+		  		android:orientation="horizontal" >
+		          
+				<TextView
+				    android:id="@+id/textviewConfRenameLabel11"
+					android:layout_width="0dp"
+		   			android:layout_height="@dimen/login_activity_edittext_height"
+		   			android:layout_weight="2"
+		  			android:text="@string/text_CAP_programme"
+		  			android:textColor="@color/color_mdark_gray"
+		  			android:gravity="center_vertical"
+		  			android:textSize="@dimen/font_size_4" />
+				
+				<EditText
+			        android:id="@+id/edittextConfRename11"
+			        android:paddingLeft="@dimen/padding_tiny"
+			        android:paddingRight="@dimen/padding_tiny"
+			        android:layout_width="0dp"
+		   			android:layout_height="@dimen/login_activity_edittext_height"
+		   			android:layout_weight="4"
+			        android:background="@drawable/bg_white_bordered"
+			        android:singleLine="true"
+			        android:textColor="@color/color_mdark_gray"
+			        android:textSize="@dimen/font_size_4" />
+		             
+			</LinearLayout>
+			
+			<LinearLayout
+	            android:layout_width="match_parent"
+	    		android:layout_height="1dp"
+	    		android:layout_margin="@dimen/padding_tiny"
+	    		android:background="@color/color_inactive_gray" >	            
+	        </LinearLayout>
+	        
+			<LinearLayout
+				android:layout_width="match_parent"
+		  		android:layout_height="wrap_content"
+		  		android:layout_margin="@dimen/padding_tiny"
+		  		android:paddingLeft="@dimen/padding_normal"
+		    	android:paddingRight="@dimen/padding_normal"
+		  		android:orientation="horizontal" >
+		          
+				<TextView
+				    android:id="@+id/textviewConfRenameLabel12"
+					android:layout_width="0dp"
+		   			android:layout_height="@dimen/login_activity_edittext_height"
+		   			android:layout_weight="2"
+		  			android:text="@string/text_CAP_programme"
+		  			android:textColor="@color/color_mdark_gray"
+		  			android:gravity="center_vertical"
+		  			android:textSize="@dimen/font_size_4" />
+				
+				<EditText
+			        android:id="@+id/edittextConfRename12"
+			        android:paddingLeft="@dimen/padding_tiny"
+			        android:paddingRight="@dimen/padding_tiny"
+			        android:layout_width="0dp"
+		   			android:layout_height="@dimen/login_activity_edittext_height"
+		   			android:layout_weight="4"
+			        android:background="@drawable/bg_white_bordered"
+			        android:singleLine="true"
+			        android:textColor="@color/color_mdark_gray"
+			        android:textSize="@dimen/font_size_4" />
+		             
+			</LinearLayout>
+			
+			<LinearLayout
+	            android:layout_width="match_parent"
+	    		android:layout_height="1dp"
+	    		android:layout_margin="@dimen/padding_tiny"
+	    		android:background="@color/color_inactive_gray" >	            
+	        </LinearLayout>
+	        
+			<LinearLayout
+				android:layout_width="match_parent"
+		  		android:layout_height="wrap_content"
+		  		android:layout_margin="@dimen/padding_tiny"
+		  		android:paddingLeft="@dimen/padding_normal"
+		    	android:paddingRight="@dimen/padding_normal"
+		  		android:orientation="horizontal" >
+		          
+				<TextView
+				    android:id="@+id/textviewConfRenameLabel13"
+					android:layout_width="0dp"
+		   			android:layout_height="@dimen/login_activity_edittext_height"
+		   			android:layout_weight="2"
+		  			android:text="@string/text_CAP_programme"
+		  			android:textColor="@color/color_mdark_gray"
+		  			android:gravity="center_vertical"
+		  			android:textSize="@dimen/font_size_4" />
+				
+				<EditText
+			        android:id="@+id/edittextConfRename13"
+			        android:paddingLeft="@dimen/padding_tiny"
+			        android:paddingRight="@dimen/padding_tiny"
+			        android:layout_width="0dp"
+		   			android:layout_height="@dimen/login_activity_edittext_height"
+		   			android:layout_weight="4"
+			        android:background="@drawable/bg_white_bordered"
+			        android:singleLine="true"
+			        android:textColor="@color/color_mdark_gray"
+			        android:textSize="@dimen/font_size_4" />
+		             
+			</LinearLayout>
+			
+			<LinearLayout
+	            android:layout_width="match_parent"
+	    		android:layout_height="1dp"
+	    		android:layout_margin="@dimen/padding_tiny"
+	    		android:background="@color/color_inactive_gray" >	            
+	        </LinearLayout>
+	        
+			<LinearLayout
+				android:layout_width="match_parent"
+		  		android:layout_height="wrap_content"
+		  		android:layout_margin="@dimen/padding_tiny"
+		  		android:paddingLeft="@dimen/padding_normal"
+		    	android:paddingRight="@dimen/padding_normal"
+		  		android:orientation="horizontal" >
+		          
+				<TextView
+				    android:id="@+id/textviewConfRenameLabel14"
+					android:layout_width="0dp"
+		   			android:layout_height="@dimen/login_activity_edittext_height"
+		   			android:layout_weight="2"
+		  			android:text="@string/text_CAP_programme"
+		  			android:textColor="@color/color_mdark_gray"
+		  			android:gravity="center_vertical"
+		  			android:textSize="@dimen/font_size_4" />
+				
+				<EditText
+			        android:id="@+id/edittextConfRename14"
+			        android:paddingLeft="@dimen/padding_tiny"
+			        android:paddingRight="@dimen/padding_tiny"
+			        android:layout_width="0dp"
+		   			android:layout_height="@dimen/login_activity_edittext_height"
+		   			android:layout_weight="4"
+			        android:background="@drawable/bg_white_bordered"
+			        android:singleLine="true"
+			        android:textColor="@color/color_mdark_gray"
+			        android:textSize="@dimen/font_size_4" />
+		             
+			</LinearLayout>
+			
+			<LinearLayout
+	            android:layout_width="match_parent"
+	    		android:layout_height="1dp"
+	    		android:layout_margin="@dimen/padding_tiny"
+	    		android:background="@color/color_inactive_gray" >	            
+	        </LinearLayout>
+            
+    		
+        </LinearLayout>
+    
+    </ScrollView>
+    
+    
+    
+    
+    
+    
+    
+    
+    <ListView
+        android:id="@+id/listviewConfigRename"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color_white"
+        android:visibility="gone" />
+    
+    
+</LinearLayout>

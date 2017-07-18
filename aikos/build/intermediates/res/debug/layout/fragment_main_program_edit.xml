@@ -1,0 +1,658 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/_Gainsboro"
+    android:padding="1dp" >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+    	android:layout_height="0dp"
+        android:layout_weight="98"
+    	android:orientation="vertical"
+    	android:background="@color/color_white" >
+
+        <LinearLayout
+	        android:id="@+id/linearlayoutDay1"
+	        android:layout_width="match_parent"
+	    	android:layout_height="0dp"
+	    	android:layout_weight="1"
+	    	android:orientation="horizontal"
+	    	android:background="@color/color_white" >
+	    	
+	        <LinearLayout
+	            android:id="@+id/linearlayoutDayBar1"
+	            android:layout_width="0dp"
+	            android:layout_weight="8"
+	            android:layout_height="match_parent"
+	            android:paddingTop="1dp"
+	            android:paddingBottom="1dp"
+	            android:paddingLeft="@dimen/padding_small"
+		        android:paddingRight="@dimen/padding_small"
+		        android:orientation="vertical" >
+		        
+	            <TextView
+	                android:id="@+id/textviewProgEditDay1"
+	                android:layout_width="match_parent"
+	                android:layout_height="0dp"
+	                android:layout_weight="4"
+	                android:textColor="@color/color_gray"
+	                android:singleLine="true"
+	                android:gravity="left|center_vertical"
+	                android:textSize="@dimen/font_size_6"
+	                android:text="Monday" />
+	            
+	            <com.aikos.aikoslibrary.view.ProgramADayView
+	                android:id="@+id/progADayView1"
+		            android:layout_width="match_parent"
+		            android:layout_height="0dp"
+	                android:layout_weight="3" />
+
+
+
+	        </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearlayoutSplitbar1"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/color_inactive_gray"
+                android:layout_marginTop="@dimen/padding_tiny"
+                android:layout_marginBottom="@dimen/padding_tiny"
+                android:orientation="horizontal">
+            </LinearLayout>
+	    	
+	        <LinearLayout
+	            android:layout_width="0dp"
+	            android:layout_height="match_parent"
+	            android:layout_weight="1" >
+	            
+	            <ImageView
+	                android:id="@+id/imageViewSplit1"
+	                android:layout_width="match_parent"
+	                android:layout_height="match_parent"
+	                android:padding="@dimen/padding_tiny"
+	                android:gravity="center"
+	                android:src="@drawable/ic_split" />
+	            
+	        </LinearLayout>
+	        
+	        <LinearLayout
+	            android:layout_width="1dp"
+	            android:layout_height="match_parent"
+	            android:background="@color/color_inactive_gray"
+	            android:layout_marginTop="@dimen/padding_tiny"
+	            android:layout_marginBottom="@dimen/padding_tiny" >
+	        </LinearLayout>
+	        
+	        <LinearLayout
+	            android:layout_width="0dp"
+	            android:layout_height="match_parent"
+	            android:layout_weight="1" >
+	            
+	            <ImageView
+	                android:id="@+id/imageViewDrag1"
+	                android:layout_width="match_parent"
+	                android:layout_height="match_parent"
+	                android:padding="@dimen/padding_tiny"
+	                android:gravity="center"
+	                android:src="@drawable/ic_3hline" />
+	            
+	        </LinearLayout>
+	        
+	    </LinearLayout>
+	    
+	    <LinearLayout
+	        android:id="@+id/linearlayoutDay2"
+	        android:layout_width="match_parent"
+	    	android:layout_height="0dp"
+	    	android:layout_weight="1"
+	    	android:orientation="horizontal"
+	    	android:background="@color/color_white" >
+	    	
+	        <LinearLayout
+	            android:id="@+id/linearlayoutDayBar2"
+	            android:layout_width="0dp"
+	            android:layout_weight="8"
+	            android:layout_height="match_parent"
+	            android:paddingTop="1dp"
+	            android:paddingBottom="1dp"
+	            android:paddingLeft="@dimen/padding_small"
+		        android:paddingRight="@dimen/padding_small"
+		        android:orientation="vertical" >
+		        
+	            <TextView
+	                android:id="@+id/textviewProgEditDay2"
+	                android:layout_width="match_parent"
+	                android:layout_height="0dp"
+	                android:layout_weight="4"
+	                android:textColor="@color/color_gray"
+	                android:singleLine="true"
+	                android:gravity="left|center_vertical"
+	                android:textSize="@dimen/font_size_6"
+	                android:text="Monday" />
+	            
+	            <com.aikos.aikoslibrary.view.ProgramADayView
+	                android:id="@+id/progADayView2"
+		            android:layout_width="match_parent"
+		            android:layout_height="0dp"
+	                android:layout_weight="3" />
+
+
+
+		            
+	        </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearlayoutSplitbar2"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/color_inactive_gray"
+                android:layout_marginTop="@dimen/padding_tiny"
+                android:layout_marginBottom="@dimen/padding_tiny"
+                android:orientation="horizontal">
+            </LinearLayout>
+
+	        <LinearLayout
+	            android:layout_width="0dp"
+	            android:layout_height="match_parent"
+	            android:layout_weight="1" >
+	            
+	            <ImageView
+	                android:id="@+id/imageViewSplit2"
+	                android:layout_width="match_parent"
+	                android:layout_height="match_parent"
+	                android:padding="@dimen/padding_tiny"
+	                android:gravity="center"
+	                android:src="@drawable/ic_split" />
+	            
+	        </LinearLayout>
+	        
+	        <LinearLayout
+	            android:layout_width="1dp"
+	            android:layout_height="match_parent"
+	            android:background="@color/color_inactive_gray"
+	            android:layout_marginTop="@dimen/padding_tiny"
+	            android:layout_marginBottom="@dimen/padding_tiny" >
+	        </LinearLayout>
+	        
+	        <LinearLayout
+	            android:layout_width="0dp"
+	            android:layout_height="match_parent"
+	            android:layout_weight="1" >
+	            
+	            <ImageView
+	                android:id="@+id/imageViewDrag2"
+	                android:layout_width="match_parent"
+	                android:layout_height="match_parent"
+	                android:padding="@dimen/padding_tiny"
+	                android:gravity="center"
+	                android:src="@drawable/ic_3hline" />
+	            
+	        </LinearLayout>
+	        
+	    </LinearLayout>
+	    
+	    <LinearLayout
+	        android:id="@+id/linearlayoutDay3"
+	        android:layout_width="match_parent"
+	    	android:layout_height="0dp"
+	    	android:layout_weight="1"
+	    	android:orientation="horizontal"
+	    	android:background="@color/color_white" >
+	    	
+	        <LinearLayout
+	            android:id="@+id/linearlayoutDayBar3"
+	            android:layout_width="0dp"
+	            android:layout_weight="8"
+	            android:layout_height="match_parent"
+	            android:paddingTop="1dp"
+	            android:paddingBottom="1dp"
+	            android:paddingLeft="@dimen/padding_small"
+		        android:paddingRight="@dimen/padding_small"
+		        android:orientation="vertical" >
+		        
+	            <TextView
+	                android:id="@+id/textviewProgEditDay3"
+	                android:layout_width="match_parent"
+	                android:layout_height="0dp"
+	                android:layout_weight="4"
+	                android:textColor="@color/color_gray"
+	                android:singleLine="true"
+	                android:gravity="left|center_vertical"
+	                android:textSize="@dimen/font_size_6"
+	                android:text="Monday" />
+	            
+	            <com.aikos.aikoslibrary.view.ProgramADayView
+	                android:id="@+id/progADayView3"
+		            android:layout_width="match_parent"
+		            android:layout_height="0dp"
+	                android:layout_weight="3" />
+
+
+		            
+	        </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearlayoutSplitbar3"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/color_inactive_gray"
+                android:layout_marginTop="@dimen/padding_tiny"
+                android:layout_marginBottom="@dimen/padding_tiny"
+                android:orientation="horizontal">
+            </LinearLayout>
+	    	
+	        <LinearLayout
+	            android:layout_width="0dp"
+	            android:layout_height="match_parent"
+	            android:layout_weight="1" >
+	            
+	            <ImageView
+	                android:id="@+id/imageViewSplit3"
+	                android:layout_width="match_parent"
+	                android:layout_height="match_parent"
+	                android:padding="@dimen/padding_tiny"
+	                android:gravity="center"
+	                android:src="@drawable/ic_split" />
+	            
+	        </LinearLayout>
+	        
+	        <LinearLayout
+	            android:layout_width="1dp"
+	            android:layout_height="match_parent"
+	            android:background="@color/color_inactive_gray"
+	            android:layout_marginTop="@dimen/padding_tiny"
+	            android:layout_marginBottom="@dimen/padding_tiny" >
+	        </LinearLayout>
+	        
+	        <LinearLayout
+	            android:layout_width="0dp"
+	            android:layout_height="match_parent"
+	            android:layout_weight="1" >
+	            
+	            <ImageView
+	                android:id="@+id/imageViewDrag3"
+	                android:layout_width="match_parent"
+	                android:layout_height="match_parent"
+	                android:padding="@dimen/padding_tiny"
+	                android:gravity="center"
+	                android:src="@drawable/ic_3hline" />
+	            
+	        </LinearLayout>
+	        
+	    </LinearLayout>
+	    
+	    <LinearLayout
+	        android:id="@+id/linearlayoutDay4"
+	        android:layout_width="match_parent"
+	    	android:layout_height="0dp"
+	    	android:layout_weight="1"
+	    	android:orientation="horizontal"
+	    	android:background="@color/color_white" >
+	    	
+	        <LinearLayout
+	            android:id="@+id/linearlayoutDayBar4"
+	            android:layout_width="0dp"
+	            android:layout_weight="8"
+	            android:layout_height="match_parent"
+	            android:paddingTop="1dp"
+	            android:paddingBottom="1dp"
+	            android:paddingLeft="@dimen/padding_small"
+		        android:paddingRight="@dimen/padding_small"
+		        android:orientation="vertical" >
+		        
+	            <TextView
+	                android:id="@+id/textviewProgEditDay4"
+	                android:layout_width="match_parent"
+	                android:layout_height="0dp"
+	                android:layout_weight="4"
+	                android:textColor="@color/color_gray"
+	                android:singleLine="true"
+	                android:gravity="left|center_vertical"
+	                android:textSize="@dimen/font_size_6"
+	                android:text="Monday" />
+	            
+	            <com.aikos.aikoslibrary.view.ProgramADayView
+	                android:id="@+id/progADayView4"
+		            android:layout_width="match_parent"
+		            android:layout_height="0dp"
+	                android:layout_weight="3" />
+
+
+		            
+	        </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearlayoutSplitbar4"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/color_inactive_gray"
+                android:layout_marginTop="@dimen/padding_tiny"
+                android:layout_marginBottom="@dimen/padding_tiny"
+                android:orientation="horizontal">
+            </LinearLayout>
+	    	
+	        <LinearLayout
+	            android:layout_width="0dp"
+	            android:layout_height="match_parent"
+	            android:layout_weight="1" >
+	            
+	            <ImageView
+	                android:id="@+id/imageViewSplit4"
+	                android:layout_width="match_parent"
+	                android:layout_height="match_parent"
+	                android:padding="@dimen/padding_tiny"
+	                android:gravity="center"
+	                android:src="@drawable/ic_split" />
+	            
+	        </LinearLayout>
+	        
+	        <LinearLayout
+	            android:layout_width="1dp"
+	            android:layout_height="match_parent"
+	            android:background="@color/color_inactive_gray"
+	            android:layout_marginTop="@dimen/padding_tiny"
+	            android:layout_marginBottom="@dimen/padding_tiny" >
+	        </LinearLayout>
+	        
+	        <LinearLayout
+	            android:layout_width="0dp"
+	            android:layout_height="match_parent"
+	            android:layout_weight="1" >
+	            
+	            <ImageView
+	                android:id="@+id/imageViewDrag4"
+	                android:layout_width="match_parent"
+	                android:layout_height="match_parent"
+	                android:padding="@dimen/padding_tiny"
+	                android:gravity="center"
+	                android:src="@drawable/ic_3hline" />
+	            
+	        </LinearLayout>
+	        
+	    </LinearLayout>
+	    
+	    <LinearLayout
+	        android:id="@+id/linearlayoutDay5"
+	        android:layout_width="match_parent"
+	    	android:layout_height="0dp"
+	    	android:layout_weight="1"
+	    	android:orientation="horizontal"
+	    	android:background="@color/color_white" >
+	    	
+	        <LinearLayout
+	            android:id="@+id/linearlayoutDayBar5"
+	            android:layout_width="0dp"
+	            android:layout_weight="8"
+	            android:layout_height="match_parent"
+	            android:paddingTop="1dp"
+	            android:paddingBottom="1dp"
+	            android:paddingLeft="@dimen/padding_small"
+		        android:paddingRight="@dimen/padding_small"
+		        android:orientation="vertical" >
+		        
+	            <TextView
+	                android:id="@+id/textviewProgEditDay5"
+	                android:layout_width="match_parent"
+	                android:layout_height="0dp"
+	                android:layout_weight="4"
+	                android:textColor="@color/color_gray"
+	                android:singleLine="true"
+	                android:gravity="left|center_vertical"
+	                android:textSize="@dimen/font_size_6"
+	                android:text="Monday" />
+	            
+	            <com.aikos.aikoslibrary.view.ProgramADayView
+	                android:id="@+id/progADayView5"
+		            android:layout_width="match_parent"
+		            android:layout_height="0dp"
+	                android:layout_weight="3" />
+
+
+		            
+	        </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearlayoutSplitbar5"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/color_inactive_gray"
+                android:layout_marginTop="@dimen/padding_tiny"
+                android:layout_marginBottom="@dimen/padding_tiny"
+                android:orientation="horizontal">
+            </LinearLayout>
+	    	
+	        <LinearLayout
+	            android:layout_width="0dp"
+	            android:layout_height="match_parent"
+	            android:layout_weight="1" >
+	            
+	            <ImageView
+	                android:id="@+id/imageViewSplit5"
+	                android:layout_width="match_parent"
+	                android:layout_height="match_parent"
+	                android:padding="@dimen/padding_tiny"
+	                android:gravity="center"
+	                android:src="@drawable/ic_split" />
+	            
+	        </LinearLayout>
+	        
+	        <LinearLayout
+	            android:layout_width="1dp"
+	            android:layout_height="match_parent"
+	            android:background="@color/color_inactive_gray"
+	            android:layout_marginTop="@dimen/padding_tiny"
+	            android:layout_marginBottom="@dimen/padding_tiny" >
+	        </LinearLayout>
+	        
+	        <LinearLayout
+	            android:layout_width="0dp"
+	            android:layout_height="match_parent"
+	            android:layout_weight="1" >
+	            
+	            <ImageView
+	                android:id="@+id/imageViewDrag5"
+	                android:layout_width="match_parent"
+	                android:layout_height="match_parent"
+	                android:padding="@dimen/padding_tiny"
+	                android:gravity="center"
+	                android:src="@drawable/ic_3hline" />
+	            
+	        </LinearLayout>
+	        
+	    </LinearLayout>
+	    
+	    <LinearLayout
+	        android:id="@+id/linearlayoutDay6"
+	        android:layout_width="match_parent"
+	    	android:layout_height="0dp"
+	    	android:layout_weight="1"
+	    	android:orientation="horizontal"
+	    	android:background="@color/color_white" >
+	    	
+	        <LinearLayout
+	            android:id="@+id/linearlayoutDayBar6"
+	            android:layout_width="0dp"
+	            android:layout_weight="8"
+	            android:layout_height="match_parent"
+	            android:paddingTop="1dp"
+	            android:paddingBottom="1dp"
+	            android:paddingLeft="@dimen/padding_small"
+		        android:paddingRight="@dimen/padding_small"
+		        android:orientation="vertical" >
+		        
+	            <TextView
+	                android:id="@+id/textviewProgEditDay6"
+	                android:layout_width="match_parent"
+	                android:layout_height="0dp"
+	                android:layout_weight="4"
+	                android:textColor="@color/color_gray"
+	                android:singleLine="true"
+	                android:gravity="left|center_vertical"
+	                android:textSize="@dimen/font_size_6"
+	                android:text="Monday" />
+	            
+	            <com.aikos.aikoslibrary.view.ProgramADayView
+	                android:id="@+id/progADayView6"
+		            android:layout_width="match_parent"
+		            android:layout_height="0dp"
+	                android:layout_weight="3" />
+
+
+		            
+	        </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearlayoutSplitbar6"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/color_inactive_gray"
+                android:layout_marginTop="@dimen/padding_tiny"
+                android:layout_marginBottom="@dimen/padding_tiny"
+                android:orientation="horizontal">
+            </LinearLayout>
+	    	
+	        <LinearLayout
+	            android:layout_width="0dp"
+	            android:layout_height="match_parent"
+	            android:layout_weight="1" >
+	            
+	            <ImageView
+	                android:id="@+id/imageViewSplit6"
+	                android:layout_width="match_parent"
+	                android:layout_height="match_parent"
+	                android:padding="@dimen/padding_tiny"
+	                android:gravity="center"
+	                android:src="@drawable/ic_split" />
+	            
+	        </LinearLayout>
+	        
+	        <LinearLayout
+	            android:layout_width="1dp"
+	            android:layout_height="match_parent"
+	            android:background="@color/color_inactive_gray"
+	            android:layout_marginTop="@dimen/padding_tiny"
+	            android:layout_marginBottom="@dimen/padding_tiny" >
+	        </LinearLayout>
+	        
+	        <LinearLayout
+	            android:layout_width="0dp"
+	            android:layout_height="match_parent"
+	            android:layout_weight="1" >
+	            
+	            <ImageView
+	                android:id="@+id/imageViewDrag6"
+	                android:layout_width="match_parent"
+	                android:layout_height="match_parent"
+	                android:padding="@dimen/padding_tiny"
+	                android:gravity="center"
+	                android:src="@drawable/ic_3hline" />
+	            
+	        </LinearLayout>
+	        
+	    </LinearLayout>
+	    
+	    <LinearLayout
+	        android:id="@+id/linearlayoutDay7"
+	        android:layout_width="match_parent"
+	    	android:layout_height="0dp"
+	    	android:layout_weight="1"
+	    	android:orientation="horizontal"
+	    	android:background="@color/color_white" >
+	    	
+	        <LinearLayout
+	            android:id="@+id/linearlayoutDayBar7"
+	            android:layout_width="0dp"
+	            android:layout_weight="8"
+	            android:layout_height="match_parent"
+	            android:paddingTop="1dp"
+	            android:paddingBottom="1dp"
+	            android:paddingLeft="@dimen/padding_small"
+		        android:paddingRight="@dimen/padding_small"
+		        android:orientation="vertical" >
+		        
+	            <TextView
+	                android:id="@+id/textviewProgEditDay7"
+	                android:layout_width="match_parent"
+	                android:layout_height="0dp"
+	                android:layout_weight="4"
+	                android:textColor="@color/color_gray"
+	                android:singleLine="true"
+	                android:gravity="left|center_vertical"
+	                android:textSize="@dimen/font_size_6"
+	                android:text="Monday" />
+	            
+	            <com.aikos.aikoslibrary.view.ProgramADayView
+	                android:id="@+id/progADayView7"
+		            android:layout_width="match_parent"
+		            android:layout_height="0dp"
+	                android:layout_weight="3" />
+
+
+		            
+	        </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearlayoutSplitbar7"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/color_inactive_gray"
+                android:layout_marginTop="@dimen/padding_tiny"
+                android:layout_marginBottom="@dimen/padding_tiny"
+                android:orientation="horizontal">
+            </LinearLayout>
+	    	
+	        <LinearLayout
+	            android:layout_width="0dp"
+	            android:layout_height="match_parent"
+	            android:layout_weight="1" >
+	            
+	            <ImageView
+	                android:id="@+id/imageViewSplit7"
+	                android:layout_width="match_parent"
+	                android:layout_height="match_parent"
+	                android:padding="@dimen/padding_tiny"
+	                android:gravity="center"
+	                android:src="@drawable/ic_split" />
+	            
+	        </LinearLayout>
+	        
+	        <LinearLayout
+	            android:layout_width="1dp"
+	            android:layout_height="match_parent"
+	            android:background="@color/color_inactive_gray"
+	            android:layout_marginTop="@dimen/padding_tiny"
+	            android:layout_marginBottom="@dimen/padding_tiny" >
+	        </LinearLayout>
+	        
+	        <LinearLayout
+	            android:layout_width="0dp"
+	            android:layout_height="match_parent"
+	            android:layout_weight="1" >
+	            
+	            <ImageView
+	                android:id="@+id/imageViewDrag7"
+	                android:layout_width="match_parent"
+	                android:layout_height="match_parent"
+	                android:padding="@dimen/padding_tiny"
+	                android:gravity="center"
+	                android:src="@drawable/ic_3hline" />
+	            
+	        </LinearLayout>
+	        
+	    </LinearLayout>
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:background="@color/color_white">
+
+    </LinearLayout>
+    
+</LinearLayout>
+<!-- From: file:/Volumes/WORK/AndroidStudio/Aikos/aikos/src/main/res/layout/fragment_main_program_edit.xml -->

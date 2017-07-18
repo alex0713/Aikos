@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Aikos.iml" filepath="$PROJECT_DIR$/Aikos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aikos/aikos.iml" filepath="$PROJECT_DIR$/aikos/aikos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aikosLibrary/aikosLibrary.iml" filepath="$PROJECT_DIR$/aikosLibrary/aikosLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mPChartLib/mPChartLib.iml" filepath="$PROJECT_DIR$/mPChartLib/mPChartLib.iml" />
+    </modules>
+  </component>
+</project>
+
